@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Caviar Dreams';
+	src: url('fonts/caviar_dreams.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/caviar_dreams.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/caviar_dreams.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/caviar_dreams.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/caviar_dreams.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/caviar_dreams.svg#caviar_dreams') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+p{
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+h1{
+    color:rgb(122, 36, 36);
+    margin-top: 0;
+}
+
+img{
+    width: 500px;
+}
+
+.maintext{
+   font-size: 1.5rem; 
+}
+
+ul{
+    list-style: square
+}
+a:hover{
+color: aquamarine;
+}
+
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
